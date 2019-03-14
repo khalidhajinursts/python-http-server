@@ -3,7 +3,7 @@ Description=Python HTTP Server
 
 [Service]
 User=jenkins
-WorkingDirectory=/opt/python-systemd-http-server/public
+WorkingDirectory=/home/python
 ExecStart=/opt/python-systemd-http-server/app.py
 
 [Install]
